@@ -1,0 +1,55 @@
+{
+  "name": "discord.js-sharescreen-v14",
+  "version": "1.0.0",
+  "description": "Stream local videos, images, colors and web pages into Discord voice channels with discord.js v14 and ffmpeg. Audio playback plus an H.264 video pipeline in a few lines of code.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src",
+    "config",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/unit.test.js test/session.test.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord.js-v14",
+    "voice",
+    "stream",
+    "screen-share",
+    "ffmpeg",
+    "video"
+  ],
+  "license": "MIT",
+  "author": "Your Name <you@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/discord.js-sharescreen-v14.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/discord.js-sharescreen-v14/issues"
+  },
+  "homepage": "https://github.com/your-username/discord.js-sharescreen-v14#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "opusscript": "^0.1.1"
+  },
+  "optionalDependencies": {
+    "ffmpeg-static": "^5.3.0"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "peerDependenciesMeta": {
+    "puppeteer": {
+      "optional": true
+    }
+  },
+  "devDependencies": {}
+}
